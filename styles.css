@@ -1,0 +1,116 @@
+/*GOOGLE FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f1f5f8;
+    text-align: center;
+}
+
+/*GRID START*/
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: .25fr .50fr repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+}
+
+/*DIV 1 - HEADER*/
+
+.header{
+    grid-area: 2 / 2 / 3 / 3;
+    background: radial-gradient(circle, rgba(6,38,202,1) 64%, rgba(252,70,107,1) 100%);
+    border-radius: 18% 82% 55% 45% / 21% 46% 54% 79%;
+    height: 175px;
+    width: 355px;
+    margin: auto;
+}
+
+h1 {
+    color:#fff;
+    font-family: 'Rubik Iso', cursive;
+    margin-top: 25%;
+   transform: translate(0px, -20px);
+}
+
+.glass {
+    background: rgba(255,255,255,0.25);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 18% 82% 55% 45% / 21% 46% 54% 79%;
+    height: 80px;
+    width: 100px;
+    transform: translate(200px, -100px);
+}
+
+/*DIV 2 - CONTAINER 1*/
+
+.container1 {
+    grid-area: 3 / 2 / 4 / 3; 
+    border-radius: 58px;
+    background-color: #f1f5f8;
+    box-shadow:  14px 14px 69px #9d9fa1, -14px -14px 69px #ffffff;
+}
+
+/*DIV 3 - CONTAINER 2*/
+
+.container2 { 
+    grid-area: 4 / 2 / 5 / 3; 
+    border-radius: 58px;
+    background-color: #f1f5f8;
+    box-shadow:  -14px -14px 69px #9d9fa1, 14px 14px 69px #ffffff;
+}
+
+/*CONTAINER TITLES*/
+
+h2{
+    color: white;
+    background-color: #2c3e50;
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+/*CONTAINER BUTTONS*/
+
+.btn {
+    transform: translate(0px, 75px);
+    margin: 10px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #bdc3c7 0%, #2c3e50 75%);
+}
+
+.btn:hover {
+    background-position: right center;
+}
+      
+.btn:active {
+    top: 2px;
+}
+
+/*MAKE SURE BUTTONS STAY IN CONTAINER IN MOBILE VIEW*/
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        transform: translate(0px, 50px);
+    }
+  }
