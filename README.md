@@ -13,7 +13,7 @@ JS-Color-Generator is a web-based application built with HTML, CSS, and JavaScri
 
 ## Preview
 
-To see the JS-Color-Generator in action, you can check it out on [CodePen](https://yourcodepenlinkhere).
+To see the JS-Color-Generator in action, you can check it out on [CodePen](https://codepen.io/j-pruitt/pen/gOdoNxq).
 
 ## Usage
 
@@ -31,7 +31,7 @@ The app uses JavaScript arrays and functions to generate random colors and linea
 
 ## Let's Connect
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/yourlinkedinprofilelinkhere/) to discuss the project, share ideas, or provide feedback.
+Connect with me on [LinkedIn](www.linkedin.com/in/james-a-pruitt) to discuss the project, share ideas, or provide feedback.
 
 Feel free to explore, experiment, and contribute to the project. Your suggestions are highly valuable and encouraged!
 
